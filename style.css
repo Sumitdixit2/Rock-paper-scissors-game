@@ -1,69 +1,77 @@
-*{
-    margin:0;
-    padding:0;
-    text-align:center;
-
+/* Global Reset and Basic Styling */
+* {
+    margin: 0;                /* Remove default margins */
+    padding: 0;               /* Remove default padding */
+    text-align: center;       /* Center text alignment */
 }
 
-h1{
-    background-color:#081b31;
-    color:white;
-    height:5rem;
-    line-height:5rem;
-   
+/* Header Styling */
+h1 {
+    background-color: #081b31; /* Dark blue background for the header */
+    color: white;              /* White text color */
+    height: 5rem;              /* Set header height */
+    line-height: 5rem;         /* Center text vertically */
 }
 
-.choice{
-    height:165px;
-    width:165px;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
+/* Choice Buttons Styling */
+.choice {
+    height: 165px;            /* Set the height of each choice button */
+    width: 165px;             /* Set the width of each choice button */
+    border-radius: 50%;       /* Make buttons circular */
+    display: flex;            /* Use flexbox for alignment */
+    justify-content: center;  /* Center content horizontally */
+    align-items: center;      /* Center content vertically */
 }
 
-.choice:hover{
-       cursor:pointer;
-       background-color:#081b31;
-}
-img{
-    height:150px;
-    width:150px;
-    object-fit:cover;
-    border-radius:50%;
+/* Hover Effect for Choice Buttons */
+.choice:hover {
+    cursor: pointer;          /* Change cursor to pointer on hover */
+    background-color: #081b31; /* Change background color on hover */
 }
 
-.choices{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    gap:3rem;
-    margin-top:5rem;
+/* Image Styling */
+img {
+    height: 150px;            /* Set image height */
+    width: 150px;             /* Set image width */
+    object-fit: cover;        /* Ensure images cover the entire button */
+    border-radius: 50%;       /* Make images circular */
 }
 
-.score-board{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:2rem;
-    margin-top:3rem;
-    gap:5rem;
+/* Choices Container Styling */
+.choices {
+    display: flex;            /* Use flexbox to arrange choices */
+    justify-content: center;  /* Center choices horizontally */
+    align-items: center;      /* Center choices vertically */
+    gap: 3rem;                /* Space between choices */
+    margin-top: 5rem;         /* Space above the choices container */
 }
 
-#user-score,#comp-score{
-    font-size:4rem;
+/* Scoreboard Styling */
+.score-board {
+    display: flex;            /* Use flexbox to arrange scores */
+    justify-content: center;  /* Center scores horizontally */
+    align-items: center;      /* Center scores vertically */
+    font-size: 2rem;          /* Set font size for the scores */
+    margin-top: 3rem;         /* Space above the scoreboard */
+    gap: 5rem;                /* Space between user and computer scores */
 }
 
-.msg-container{
-    margin-top:5rem;
+/* Individual Score Styling */
+#user-score, #comp-score {
+    font-size: 4rem;          /* Set font size for the scores */
 }
 
-#msg{
-    
-    background-color:#081b31;
-    color:white;
-    font-size:2rem;
-    display:inline;
-    padding:1rem;
-    border-radius:1rem;
+/* Message Container Styling */
+.msg-container {
+    margin-top: 5rem;         /* Space above the message container */
+}
+
+/* Message Box Styling */
+#msg {
+    background-color: #081b31; /* Dark blue background for the message box */
+    color: white;              /* White text color */
+    font-size: 2rem;           /* Set font size for the message text */
+    display: inline;           /* Inline display to fit content */
+    padding: 1rem;             /* Padding inside the message box */
+    border-radius: 1rem;       /* Rounded corners for the message box */
 }
